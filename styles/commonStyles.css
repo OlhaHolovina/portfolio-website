@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my-button {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: white;
+    color: #1A1A1A;
+    border: 2px solid #1A1A1A;
+    transition: all 0.5s;
+}
+
+.my-button:hover {
+    background: #1A1A1A;
+    color: white;
+}
+
+/*footer*/
+footer {
+    background: #1A1A1A;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+
+.footer-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-right: 2px solid #CECECE;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer-menu a.hover-home:hover {
+    color: #DA0720;
+}
+
+.footer-menu a.hover-about:hover {
+    color: #069097;
+}
+
+.footer-menu a.hover-work:hover {
+    color: #F16522;
+}
+
+.footer-menu a.hover-contacts:hover {
+    color: #FFC10F;
+}
+
+.footer-name {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer-info {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 18px;
+}

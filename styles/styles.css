@@ -1,0 +1,281 @@
+/*home*/
+.home-header {
+    background: #1A1A1A;
+    height: 83vh;
+}
+
+.home-header h1 {
+    color: #FFFFFF;
+}
+
+.home-project-example {
+    /*https://www.w3schools.com/css/css3_object-fit.asp*/
+    object-fit: cover;
+    width: 100%;
+    height: 83vh;
+}
+
+.home-header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.names {
+    width: 428px;
+    padding-bottom: 10px;
+}
+
+.home-header .header-subtitle {
+    color: #43A5AA;
+    font-size: 20px;
+}
+
+.home-header .divider {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hello {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.I-am {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+
+.experience {
+    font-size: 22px;
+}
+
+.forward {
+    border-top: 2px solid #1A1A1A;
+    padding-top: 40px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.some-work {
+    padding-top: 60px;
+    color: #1A1A1A;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+
+.home-button {
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+/*works*/
+.works-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    background: #F16522;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.work-section-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.work-section {
+    width: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.project-description-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 420px;
+}
+
+.project-description-wrapper-red {
+    background: #DA0720;
+    opacity: 0.9;
+}
+
+.project-description-wrapper-yellow {
+    background: #FFC10F;
+    opacity: 0.9;
+}
+
+.project-description-wrapper-green{
+    background: #87AA0D;
+    opacity: 0.9;
+}
+
+.project-description-wrapper-brown {
+    background: #a28293;
+    opacity: 0.9;
+}
+
+.project-description-wrapper-orange {
+    background: #ed6501;
+    opacity: 0.9;
+}
+
+.project-description-wrapper-omax {
+    background: #6a9000;
+    opacity: 0.9;
+}
+
+.work-section .project-description {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: -60px;
+    padding: 40px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.work-section:hover .project-description {
+    display: block;
+}
+
+.project-description h1 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.work-img {
+    /*https://www.w3schools.com/css/css3_object-fit.asp*/
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/*about*/
+.about-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    background: #069097;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-img-wrapper {
+    height: 489px;
+    margin-top: 93px;
+    width: 375px;
+}
+
+.about-img-wrapper img {
+    /*https://www.w3schools.com/css/css3_object-fit.asp*/
+    object-fit: cover;
+    width: 100%;
+}
+
+.about-sub-title {
+    border-bottom: 2px solid #C4C4C4;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nutshell {
+    padding-right: 10%;
+}
+
+.design-skills p {
+    margin-bottom: 0;
+}
+
+.tech-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-skills img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+/*contacts*/
+.contacts-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    background: #FFC10F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.interested {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.send-me {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+/*project pages*/
+.project-title-img {
+    width: 100%;
+    /*https://www.w3schools.com/css/css3_object-fit.asp*/
+    object-fit: cover;
+}
+
+.project-title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project-description {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.project-explanation {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.project-explanation-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #CECECE;
+}
+
+.project-explanation-description {
+    font-size: 18px;
+}
+.timeline {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}

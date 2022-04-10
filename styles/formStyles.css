@@ -1,0 +1,22 @@
+label {
+  color: grey;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 100%;
+  font-family: 'Arial',sans-serif;
+}
+
+.success-msg {
+  text-align: center;
+  color:green;
+  font-family: 'Arial', sans-serif;
+  font-size: 150%;
+}

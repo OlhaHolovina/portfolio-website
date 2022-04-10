@@ -1,0 +1,67 @@
+/*Navbar Bootstrap component overrides*/
+.bg-custom {
+    border-bottom: 2px solid #D1D1D1;
+    background: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .bg-custom {
+        border-bottom: none;
+        padding-bottom: 32px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding-right: 0!important;
+    }
+
+    #carouselExampleFade {
+        display: none;
+    }
+
+    .work-section-wrapper {
+        flex-direction: column;
+    }
+
+    .work-section {
+        width: 100%;
+    }
+}
+
+.bg-custom menu {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.bg-custom .navbar-collapse {
+    flex-grow: initial;
+    height: 17vh;
+}
+
+.navbar-toggler {
+    background: #1A1A1A;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #1A1A1A;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-right: 45px;
+}
+
+.navbar-dark .navbar-nav .nav-link.hover-home:hover {
+    color: #DA0720;
+}
+
+.navbar-dark .navbar-nav .nav-link.hover-about:hover {
+    color: #069097;
+}
+
+.navbar-dark .navbar-nav .nav-link.hover-work:hover {
+    color: #F16522;
+}
+
+.navbar-dark .navbar-nav .nav-link.hover-contacts:hover {
+    color: #FFC10F;
+}
